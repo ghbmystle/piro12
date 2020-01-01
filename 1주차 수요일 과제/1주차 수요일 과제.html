@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>트위터. 지금 일어나고 있는 일입니다.</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <style>
+     body {
+      margin: 0;
+      padding: 0;
+    }
+     a {
+       text-decoration: none;
+       color:lightgray;
+     }
+    .wrap {
+      overflow: hidden;
+    }
+    .left {
+      width: 50%;
+      height: 1000px;
+      float: left;
+      background-image: url("background.PNG");
+    }
+    .left_box {
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      margin: 40px 0;
+      position: relative;
+      left: 20%; top: 40%;
+    }
+    .left_box img {
+      width: 32px;
+      margin-right: 10px;
+    }
+    .right {
+      width: 50%; height: 1000px;
+      float: right;
+      overflow: hidden;
+    }
+    .login {
+      position: relative;
+      top: 5%; left: 15%;
+    }
+    .search {
+      position: absolute;
+      top: 50px; left: 28%;
+    }
+    input {
+      float: left;
+      margin-right: 10px;
+    }
+     input[type=text], input[type=password] {
+       width: 200px; height: 40px;
+       border-radius: 2px;
+       border: 1px solid lightgray;
+     }
+     input[type=submit] {
+       width: 70px; height: 40px;
+       border: 2px solid deepskyblue;
+       background-color: white;
+       border-radius: 40px;
+       color: deepskyblue;
+     }
+     .right_box {
+       width: 350px; height: 500px;
+       margin: 300px auto;
+     }
+     .right_box div:nth-child(1) img {
+       width: 40px; height: 40px;
+     }
+     .right_box div:nth-child(4) {
+       width: 320px; height: 35px;
+       border: 1px solid deepskyblue;
+       border-radius: 20px;
+       background-color: deepskyblue;
+       text-align: center;
+       line-height: 35px;
+     }
+     .right_box div:nth-child(5) {
+       width: 320px; height: 35px;
+       margin-top: 13px;
+       border: 1px solid deepskyblue;
+       border-radius: 20px;
+       line-height: 35px;
+       text-align: center;
+     }
+    footer {
+      width: 100%;
+      height: 50px;
+      line-height: 50px;
+      border: 1px solid lightgray;
+    }
+    footer ul {
+      overflow: hidden;
+      margin: 0 auto;
+      width: max-content;
+    }
+    footer ul li {
+      list-style: none;
+      float: left;
+      margin-right: 10px;
+      color: gray;
+      font-size: 13px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <section>
+    <div class="wrap">
+      <div class="left">
+        <div class="left_box">
+          <img src="icon1.png"> 관심사를 팔로우하세요.
+        </div>
+        <div class="left_box">
+          <img src="icon2.png"> 사람들이 이야기하고 있는 주제에 대해 알아보세요.
+        </div>
+        <div class="left_box">
+          <img src="icon3.png"> 대화에 참여하세요.
+        </div>
+      </div>
+      <div class="right">
+        <div class="login">
+          <form action="#" method="post">
+            <input type="text" name="uname" placeholder="  휴대폰 번호, 이메일 주소 또는">
+            <input type="password" name="upw" placeholder="  비밀번호">
+            <input type="submit" value="로그인">
+          </form>
+          <br>
+          <p><a class="search" href="#">비밀번호 찾기</a></p>
+        </div>
+
+        <div class="right_box">
+          <div><img src="twitter_logo.png"></div>
+          <div><h1>지금 세계 곳곳에서 무슨 일<br>이 일어나고 있는지 확인하세<br>요.</h1><br></div>
+          <div><h3>지금 트위터에 가입하세요.</h3></div>
+          <div><a href=""><font color="white">가입하기</font></a></div>
+          <div><a href=""><font color="black">로그인</font></a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <ul>
+      <li><a href="">회사소개</a></li>
+      <li><a href="">고객센터</a></li>
+      <li><a href="">블로그</a></li>
+      <li><a href="">시스템 현황</a></li>
+      <li><a href="">인재채용</a></li>
+      <li><a href="">이용약관</a></li>
+      <li><a href="">개인정보 처리방침</a></li>
+      <li><a href="">쿠키</a></li>
+      <li><a href="">광고 정보</a></li>
+      <li><a href="">브랜드</a></li>
+      <li><a href="">애플리케이션</a></li>
+      <li><a href="">광고</a></li>
+      <li><a href="">마케팅</a></li>
+      <li><a href="">비즈니스</a></li>
+      <li><a href="">개발자</a></li>
+      <li><a href="">디렉토리</a></li>
+      <li><a href="">설정</a></li>
+      <li><font color="#d3d3d3">© 2019 Twitter</font></li>
+    </ul>
+  </footer>
+
+</body>
+</html>
